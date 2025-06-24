@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #f6ffe5;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .services-container {
+            max-width: 700px;
+            margin: 40px auto;
+            padding: 24px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+        h2 {
+            text-align: center;
+            color: #4b0085;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #a3e843;
+            margin: 16px 0;
+            padding: 16px;
+            border-radius: 8px;
+            font-size: 18px;
+            color: #333;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+            display: flex;
+            align-items: center;
+        }
+        .service-checkbox {
+            margin-right: 16px;
+            transform: scale(1.2);
+        }
+        .submit-btn {
+            display: block;
+            margin: 24px auto 0 auto;
+            padding: 10px 32px;
+            font-size: 18px;
+            background: #4b0085;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: background 0.2s;
+        }
+        .submit-btn:hover {
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="services-container">
+        <h2>Our Services</h2>
+        <form>
+            <ul>
+                <li>
+                    <input type="checkbox" class="service-checkbox" name="service" value="Web Development">
+                    Web Development
+                </li>
+                <li>
+                    <input type="checkbox" class="service-checkbox" name="service" value="Mobile App Development">
+                    PHP Full Stack Development
+                </li>
+                <li>
+                    <input type="checkbox" class="service-checkbox" name="service" value="UI/UX Design">
+                    MernStack 
+                </li>
+                <li>
+                    <input type="checkbox" class="service-checkbox" name="service" value="Digital Marketing">
+                    Android IOS
+                </li>
+                <li>
+                    <input type="checkbox" class="service-checkbox" name="service" value="Technical Support">
+                    Artificial Intelligence and Machine Learning
+                </li>
+            </ul>
+            <button type="button" class="submit-btn" onclick="alert('Submitted!')">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

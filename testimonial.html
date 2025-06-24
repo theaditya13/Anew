@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a3e843;
+            margin: 0;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #000000;
+        }
+        h3{
+            text-align: center;
+        }
+    .testimonial-row {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    .testimonial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .testimonial-item img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    object-fit: cover;
+    }
+    .testimonial-name {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+    color: #4b0085;
+    }
+    .marquewrapper {
+        width: 300px;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    .marquewrapper img{
+        animation: slideToMiddle 1s linear forwards;
+    }
+    @media (min-width: 701px) and (max-width: 1200px) {
+        .testimonial-row {
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+        }
+        .testimonial-item img {
+            width: 250px;
+            height: 250px;
+        }
+    }
+    @media (max-width: 700px) {
+    .testimonial-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonial-item img {
+        width: 250px;
+        height: 250px;
+    }
+    }
+    </style>
+</head>
+<body>
+    <h2><u>TESTIMONIALS</u></h2><br><br>
+<div class="testimonial-row">
+    <div class="testimonial-item">
+        <div class="marquewrapper"><marquee behavior="slide" direction="left" scrollamount="25"><img src="Screenshot 2025-06-07 110059.png" alt="Image 1"></marquee></div>
+        <div class="testimonial-name"><marquee behavior="slide" direction="right" scrollamount = "8">Image 1</marquee></div>
+    </div>
+    <div class="testimonial-item">
+        <div class="marquewrapper"><marquee behavior="slide" direction="left" scrollamount="25"><img src="Screenshot 2025-06-07 110044.png" alt="Image 2"></marquee></div>
+        <div class="testimonial-name"><marquee behavior="slide" direction="right" scrollamount = "8">Image 2</marquee></div>
+    </div>
+    <div class="testimonial-item">
+        <div class="marquewrapper"><marquee behavior="slide" direction="left" scrollamount="25"><img src="Screenshot 2025-06-07 110107.png" alt="Image 3"></marquee></div>
+        <div class="testimonial-name"><marquee behavior="slide" direction="right" scrollamount = "8" scrolldelay="10" >Image 3</marquee></div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a3e843;
+            margin: 0;
+            padding: 20px;
+        }
+        .contact-container {
+            max-width: 500px;
+            margin: 40px auto;
+            padding: 24px;
+            background: #81dc13;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            font-family: Arial, sans-serif;
+        }
+        .contact-container h2 {
+            margin-top: 0;
+        }
+        .address {
+            margin-bottom: 16px;
+        }
+        .map {
+            width: 100%;
+            height: 250px;
+            border: none;
+            border-radius: 8px;
+        }
+        @media (max-width: 600px) {
+        .contact-container {
+        max-width: 98%;
+        padding: 10px;
+        }
+        .map {
+        width: 100%;
+        height: 180px;   /* Set a fixed but smaller height for mobile */
+        min-height: 120px;
+        max-width: 100%;
+        border-radius: 8px;
+        display: block;
+        }
+        .gmap {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+        }
+}
+
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h2>Contact us</h2>
+        <div class="address">
+            <strong>Location:</strong><br>
+        <div class="gmap"><iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3743.872326845131!2d85.67132967500852!3d20.222625781232587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19ab347765fb0f%3A0xccb84948b4b2bdf6!2sGIFT%20Autonomous%2C%20Bhubaneswar!5e0!3m2!1sen!2sin!4v1749236287487!5m2!1sen!2sin" 
+        width="500"
+        height="250" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe></div>
+        </div>
+        <div class="address">
+            <strong>Address:</strong><br>
+            GIFT Engineering and Management College, Gramadiha, Gangapada, Bhubaneswar, Odisha 752054
+        </div>
+        <div class="address">
+            <strong>City :</strong> Bhubaneswar <br>
+            <strong>District :</strong> Khurdha<br>
+            <strong>Odisha -</strong> 752054, India <br>
+            <strong>Phone No.</strong> +917873008142<br>
+            
+            <!-- <button>Submit</button> -->
+    </div>  
+</body>
+</html>
